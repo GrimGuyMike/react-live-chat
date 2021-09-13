@@ -1,0 +1,60 @@
+/*\
+|*|     HEADER
+\*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 1.5rem;
+    width: fit-content;
+    user-select: none;
+    margin: 1rem;
+}
+
+.profileDiv {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    width: fit-content;
+    user-select: none;
+    margin: 1rem;
+}
+
+.profileDiv button {
+    font-size: 1rem;
+    padding: .1rem;
+    margin-left: .5rem;
+    border: var(--default-border);
+    border-radius: var(--default-border-radius);
+    background-color: #eee;
+    cursor: pointer;
+
+    transition-duration: 200ms;
+    transition-property: background-color;
+}
+
+.profileDiv button:hover {
+    background-color: #ddd;
+}
+
+/*\
+|*|     CONTENT
+\*/
+
+.App-content {
+    height: calc(100vmin - 3.5rem - 8rem);
+}
+
+/*\
+|*|     FOOTER
+\*/
+
+footer {
+    width: fit-content;
+    margin: 3rem auto;
+    user-select: none;
+}
